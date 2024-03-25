@@ -109,7 +109,9 @@ renderGallery(images);
 
 gallery.addEventListener('click', event => {
   event.preventDefault();
-  if (event.target.nodeName !== 'img') return;
+  if (event.target.nodeName !== 'IMG') {
+    return;
+  }
   const largeImageUrl = event.target.dataset.source;
 
   const instance = basicLightbox.create(`

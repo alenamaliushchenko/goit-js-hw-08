@@ -1,3 +1,9 @@
+.container {
+  width: 1440px;
+  height: 696px;
+  background-color: #fff;
+}
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
